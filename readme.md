@@ -31,6 +31,7 @@ After obtaining the endpoint the next step is to work on Node-red which is the p
 #### Requirements: IBM Cloud, GitHub, Slack, IBM Watson, Node-Red
 
  1.2          Purpose:
+ 
  The purpose of this project is to build a model that will predict the Life Expectancy of a person after giving the details of the BMI, Expenditure, Disease history, etc.
 
 # 2.  Literature Survey
@@ -39,3 +40,36 @@ After obtaining the endpoint the next step is to work on Node-red which is the p
 
 # 3.  Theoretical Survey
 3.1          Block diagram
+
+<img width="934" height="640" alt="Collect the data set for the project (1)" src="https://github.com/user-attachments/assets/7d361ce2-5aeb-4cd5-8afa-708fcf40ad7e" />
+
+3.2          Hardware/Software Designing:
+
+#### ·       GitHub
+GitHub is the largest community of developers in the world with millions of people sharing their projects, and ideas for benefiting many people in a very unique way. Any person living in any corner of this world can access this platform for his/her benefit. They can share their problem, their ideas, and solution to some problems. In simple words, it is basically a platform in which anyone can come and share their problems and solutions. It is easy to manage. A team working on the same project can easily monitor the progress and can easily access their work anywhere.
+
+#### ·       Slack
+It is a messaging tool that is intended to contact your internal team easily. As it gives you a platform through which we can communicate to our team members easily under one roof. It is not as hectic as sending emails and reading them. It directly comes as a message to you from the group created having your team members. It is great if you are having a team of more than 2 members. Searching for messages becomes an easy, fast medium, searching old messages.
+
+#### ·       IBM Cloud
+It is the platform that enables us to use its various features such as Watson Studio which provides a platform where we can write our python code and observe our results in the form of heat maps, graphs, and tables. In this project, we used it and got our scoring endpoint. It is the URL that helps us to send payload data to a model or function development for analysis (such as to classify the data or to make predictions).
+
+#### ·       Node-Red
+Node-Red helps us to create a front-end window on which we can get the data from the user such as his Year, BMI, Alcohol intake, etc. and it will then connect to the code written on Watson Studio via the scoring endpoint created after running the python code.
+
+# 4.  Experimental Investigations
+ The graphs of various Factors affecting the prediction of life expectancy are shown in the figure given below:
+
+
+
+ Curves of life expectancy v/s different factors
+
+
+
+Heat map of different factors
+
+Shown above is the heat map of the various factors affecting other various factors some of them have positive values some of them have negative but the thing we have to keep in mind is that we can’t neglect the factors having negative values because they will have the adverse effect which will affect the life expectancy. After some observations, I decided not to include 6 factors that are not affecting life expectancy much and will reduce the calculations and make our model less complex.
+
+# 5.  Flow Chart
+<img width="330" height="430" alt="Collect the data set for the project (2) flow chart" src="https://github.com/user-attachments/assets/dbee1f23-b878-4f2b-9cf3-48defe14edf1" />
+
