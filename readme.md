@@ -74,7 +74,7 @@ Shown above is the heat map of the various factors affecting other various facto
 <img width="330" height="430" alt="Collect the data set for the project (2) flow chart" src="https://github.com/user-attachments/assets/dbee1f23-b878-4f2b-9cf3-48defe14edf1" />
 
 # 6.  Result
- After filling in all the necessary details asked in the UI form, we got the prediction of life expectancy. The accuracy of our model was 94.41%
+ After filling in all the necessary details asked in the UI form, we got the prediction of life expectancy. The accuracy of our model was --%
 
 
 Screenshot of the prediction of life expectancy obtained
